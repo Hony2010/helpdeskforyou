@@ -1,0 +1,1166 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	modified:   ajax/impresion_factura_a4.php
+#	modified:   ajax/rutas.ajax.php
+#	modified:   ajax/ventas.ajax.php
+#	new file:   archivos/20452578951-01-F002-5.XML
+#	new file:   archivos/20452578951-03-B002-1.XML
+#	new file:   archivos/Mejoras_POS.xlsx
+#	modified:   composer.json
+#	modified:   composer.lock
+#	new file:   db/pos.sql
+#	deleted:    db/tutoria3_mitiendaposfacturador.sql
+#	renamed:    fe/certificado/llama-pe-certificado-demo-20480674414.pfx -> fe/certificado/20480674414.pfx
+#	new file:   fe/certificado/20525994741.pfx
+#	deleted:    fe/certificado/certificado_phperu.pfx
+#	deleted:    fe/certificado/certificado_prueba.pfx
+#	deleted:    fe/certificado/llama-pe-certificado-demo-20494099153.pfx
+#	new file:   fe/facturas/20452578951-01-F002-36.pdf
+#	new file:   fe/facturas/20452578951-01-F002-37.pdf
+#	new file:   fe/facturas/20452578951-01-F002-38.pdf
+#	new file:   fe/facturas/20452578951-01-F002-39.pdf
+#	new file:   fe/facturas/20452578951-01-F002-40.pdf
+#	new file:   fe/facturas/20452578951-01-F002-41.pdf
+#	new file:   fe/facturas/20452578951-01-F002-42.pdf
+#	new file:   fe/facturas/20452578951-01-F002-43.pdf
+#	new file:   fe/facturas/20452578951-01-F002-44.pdf
+#	new file:   fe/facturas/20452578951-01-F002-45.pdf
+#	new file:   fe/facturas/20452578951-01-F002-46.pdf
+#	new file:   fe/facturas/20452578951-01-F002-47.pdf
+#	new file:   fe/facturas/20452578951-01-F002-48.pdf
+#	new file:   fe/facturas/20452578951-01-F002-49.pdf
+#	new file:   fe/facturas/20452578951-01-F002-50.pdf
+#	new file:   fe/facturas/20452578951-01-F002-51.pdf
+#	new file:   fe/facturas/20452578951-01-F002-52.pdf
+#	new file:   fe/facturas/20452578951-01-F002-53.pdf
+#	new file:   fe/facturas/20452578951-01-F002-54.pdf
+#	new file:   fe/facturas/20452578951-01-F002-55.pdf
+#	new file:   fe/facturas/20452578951-01-F002-56.pdf
+#	new file:   fe/facturas/20452578951-01-F002-57.pdf
+#	new file:   fe/facturas/20452578951-01-F002-59.pdf
+#	new file:   fe/facturas/20452578951-01-F002-60.pdf
+#	new file:   fe/facturas/20452578951-01-F002-62.pdf
+#	new file:   fe/facturas/cdr/R-10452578951-01-F001-1.XML
+#	new file:   fe/facturas/cdr/R-10452578951-01-F001-1.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-01-F001-10.XML
+#	new file:   fe/facturas/cdr/R-10452578951-01-F001-10.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-01-F001-11.XML
+#	new file:   fe/facturas/cdr/R-10452578951-01-F001-11.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-01-F001-2.XML
+#	new file:   fe/facturas/cdr/R-10452578951-01-F001-2.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-01-F001-3.XML
+#	new file:   fe/facturas/cdr/R-10452578951-01-F001-3.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-01-F001-4.XML
+#	new file:   fe/facturas/cdr/R-10452578951-01-F001-4.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-01-F001-5.XML
+#	new file:   fe/facturas/cdr/R-10452578951-01-F001-5.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-01-F001-6.XML
+#	new file:   fe/facturas/cdr/R-10452578951-01-F001-6.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-01-F001-7.XML
+#	new file:   fe/facturas/cdr/R-10452578951-01-F001-7.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-01-F001-8.XML
+#	new file:   fe/facturas/cdr/R-10452578951-01-F001-8.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-01-F001-9.XML
+#	new file:   fe/facturas/cdr/R-10452578951-01-F001-9.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-1.XML
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-1.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-10.XML
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-10.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-14.XML
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-14.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-17.XML
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-17.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-18.XML
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-18.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-22.XML
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-22.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-23.XML
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-23.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-25.XML
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-25.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-26.XML
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-26.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-27.XML
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-27.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-29.XML
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-29.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-31.XML
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-31.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-34.XML
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-34.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-36.XML
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-36.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-5.XML
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-5.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-6.XML
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-6.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-7.XML
+#	new file:   fe/facturas/cdr/R-10452578951-03-B001-7.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-RC-20240104-1.XML
+#	new file:   fe/facturas/cdr/R-10452578951-RC-20240104-1.ZIP
+#	new file:   fe/facturas/cdr/R-10452578951-RC-20240105-1.XML
+#	new file:   fe/facturas/cdr/R-10452578951-RC-20240105-1.ZIP
+#	new file:   fe/facturas/cdr/R-10467291240-RC-20231114-13.XML
+#	new file:   fe/facturas/cdr/R-10467291240-RC-20231114-13.ZIP
+#	new file:   fe/facturas/cdr/R-10467291240-RC-20231115-1.XML
+#	new file:   fe/facturas/cdr/R-10467291240-RC-20231115-1.ZIP
+#	new file:   fe/facturas/cdr/R-10467291240-RC-20231123-1.XML
+#	new file:   fe/facturas/cdr/R-10467291240-RC-20231123-1.ZIP
+#	new file:   fe/facturas/cdr/R-10467291240-RC-20231125-2.XML
+#	new file:   fe/facturas/cdr/R-10467291240-RC-20231125-2.ZIP
+#	new file:   fe/facturas/cdr/R-10467291240-RC-20231202-1.XML
+#	new file:   fe/facturas/cdr/R-10467291240-RC-20231202-1.ZIP
+#	new file:   fe/facturas/cdr/R-10467291240-RC-20231202-2.XML
+#	new file:   fe/facturas/cdr/R-10467291240-RC-20231202-2.ZIP
+#	new file:   fe/facturas/cdr/R-10467291240-RC-20231205-1.XML
+#	new file:   fe/facturas/cdr/R-10467291240-RC-20231205-1.ZIP
+#	new file:   fe/facturas/cdr/R-10467291240-RC-20231205-2.XML
+#	new file:   fe/facturas/cdr/R-10467291240-RC-20231205-2.ZIP
+#	modified:   fe/facturas/cdr/R-10467291241-01-F001-10.XML
+#	modified:   fe/facturas/cdr/R-10467291241-01-F001-10.ZIP
+#	modified:   fe/facturas/cdr/R-10467291241-01-F001-12.XML
+#	modified:   fe/facturas/cdr/R-10467291241-01-F001-12.ZIP
+#	modified:   fe/facturas/cdr/R-10467291241-01-F001-20.XML
+#	modified:   fe/facturas/cdr/R-10467291241-01-F001-20.ZIP
+#	modified:   fe/facturas/cdr/R-10467291241-01-F001-21.XML
+#	modified:   fe/facturas/cdr/R-10467291241-01-F001-21.ZIP
+#	modified:   fe/facturas/cdr/R-10467291241-01-F001-22.XML
+#	modified:   fe/facturas/cdr/R-10467291241-01-F001-22.ZIP
+#	modified:   fe/facturas/cdr/R-10467291241-01-F001-23.XML
+#	modified:   fe/facturas/cdr/R-10467291241-01-F001-23.ZIP
+#	modified:   fe/facturas/cdr/R-10467291241-01-F001-24.XML
+#	modified:   fe/facturas/cdr/R-10467291241-01-F001-24.ZIP
+#	modified:   fe/facturas/cdr/R-10467291241-01-F001-25.XML
+#	modified:   fe/facturas/cdr/R-10467291241-01-F001-25.ZIP
+#	modified:   fe/facturas/cdr/R-10467291241-01-F001-26.XML
+#	modified:   fe/facturas/cdr/R-10467291241-01-F001-26.ZIP
+#	modified:   fe/facturas/cdr/R-10467291241-01-F001-4.XML
+#	modified:   fe/facturas/cdr/R-10467291241-01-F001-4.ZIP
+#	modified:   fe/facturas/cdr/R-10467291241-03-B001-10.XML
+#	modified:   fe/facturas/cdr/R-10467291241-03-B001-10.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B001-12.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B001-12.ZIP
+#	modified:   fe/facturas/cdr/R-10467291241-03-B001-6.XML
+#	modified:   fe/facturas/cdr/R-10467291241-03-B001-6.ZIP
+#	modified:   fe/facturas/cdr/R-10467291241-03-B001-7.XML
+#	modified:   fe/facturas/cdr/R-10467291241-03-B001-7.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B001-8.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B001-8.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B001-9.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B001-9.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-103.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-103.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-104.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-104.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-106.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-106.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-109.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-109.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-110.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-110.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-111.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-111.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-112.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-112.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-113.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-113.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-115.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-115.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-116.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-116.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-117.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-117.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-118.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-118.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-12.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-12.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-120.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-120.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-13.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-13.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-28.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-28.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-29.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-29.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-30.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-30.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-32.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-32.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-34.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-34.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-37.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-37.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-38.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-38.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-40.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-40.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-43.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-43.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-44.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-44.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-45.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-45.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-46.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-46.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-47.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-47.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-48.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-48.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-49.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-49.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-50.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-50.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-51.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-51.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-52.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-52.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-57.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-57.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-58.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-58.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-6.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-6.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-60.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-60.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-62.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-62.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-63.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-63.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-64.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-64.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-8.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-8.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-92.XML
+#	new file:   fe/facturas/cdr/R-10467291241-03-B002-92.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231114-10.XML
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231114-10.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231114-11.XML
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231114-11.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231114-12.XML
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231114-12.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231114-14.XML
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231114-14.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231114-4.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231114-5.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231114-6.XML
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231114-6.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231114-7.XML
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231114-7.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231114-8.XML
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231114-8.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231114-9.XML
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231114-9.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231115-2.XML
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231115-2.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231127-1.XML
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231127-1.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231206-1.XML
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20231206-1.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20240103-1.XML
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20240103-1.ZIP
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20240103-2.XML
+#	new file:   fe/facturas/cdr/R-10467291241-RC-20240103-2.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-1.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-1.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-10.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-10.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-11.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-11.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-12.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-12.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-13.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-13.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-14.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-14.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-15.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-15.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-16.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-16.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-17.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-17.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-18.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-18.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-19.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-19.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-2.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-2.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-20.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-20.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-21.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-21.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-22.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-22.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-23.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-23.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-24.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-24.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-25.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-25.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-26.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-26.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-27.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-27.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-28.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-28.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-29.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-29.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-3.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-3.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-30.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-30.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-31.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-31.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-32.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-32.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-33.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-33.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-34.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-34.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-35.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-35.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-36.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-36.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-37.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-37.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-38.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-38.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-39.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-39.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-4.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-4.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-40.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-40.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-41.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-41.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-42.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-42.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-43.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-43.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-44.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-44.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-45.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-45.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-46.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-46.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-47.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-47.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-48.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-48.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-49.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-49.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-5.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-5.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-50.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-50.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-51.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-51.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-52.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-52.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-53.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-53.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-54.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-54.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-55.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-55.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-56.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-56.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-57.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-57.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-59.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-59.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-6.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-6.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-61.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-61.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-62.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-62.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-7.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-7.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-8.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-8.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-9.XML
+#	new file:   fe/facturas/cdr/R-20452578951-01-F002-9.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-03-B002-1.XML
+#	new file:   fe/facturas/cdr/R-20452578951-03-B002-1.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-03-B002-2.XML
+#	new file:   fe/facturas/cdr/R-20452578951-03-B002-2.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-03-B002-3.XML
+#	new file:   fe/facturas/cdr/R-20452578951-03-B002-3.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-03-B002-4.XML
+#	new file:   fe/facturas/cdr/R-20452578951-03-B002-4.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-03-B002-5.XML
+#	new file:   fe/facturas/cdr/R-20452578951-03-B002-5.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-03-B002-6.XML
+#	new file:   fe/facturas/cdr/R-20452578951-03-B002-6.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-RC-20240116-1.ZIP
+#	new file:   fe/facturas/cdr/R-20452578951-RC-20240116-2.ZIP
+#	new file:   fe/facturas/cdr/R-20525994741-03-B001-15.XML
+#	new file:   fe/facturas/cdr/R-20525994741-03-B001-15.ZIP
+#	new file:   fe/facturas/cdr/R-20525994741-03-B001-24.XML
+#	new file:   fe/facturas/cdr/R-20525994741-03-B001-24.ZIP
+#	new file:   fe/facturas/cdr/R-20525994741-03-B001-28.XML
+#	new file:   fe/facturas/cdr/R-20525994741-03-B001-28.ZIP
+#	new file:   fe/facturas/cdr/R-20525994741-03-B001-30.XML
+#	new file:   fe/facturas/cdr/R-20525994741-03-B001-30.ZIP
+#	new file:   fe/facturas/cdr/R-20525994741-03-B001-32.XML
+#	new file:   fe/facturas/cdr/R-20525994741-03-B001-32.ZIP
+#	new file:   fe/facturas/cdr/R-20525994741-03-B001-33.XML
+#	new file:   fe/facturas/cdr/R-20525994741-03-B001-33.ZIP
+#	new file:   fe/facturas/cdr/R-20525994741-03-B001-8.XML
+#	new file:   fe/facturas/cdr/R-20525994741-03-B001-8.ZIP
+#	new file:   fe/facturas/cdr/R-20525994741-RC-20240104-2.XML
+#	new file:   fe/facturas/cdr/R-20525994741-RC-20240104-2.ZIP
+#	new file:   fe/facturas/xml/-RC-20231111-1.XML
+#	new file:   fe/facturas/xml/-RC-20231112-1.XML
+#	new file:   fe/facturas/xml/-RC-20231114-1.XML
+#	new file:   fe/facturas/xml/-RC-20231114-2.XML
+#	new file:   fe/facturas/xml/-RC-20231114-3.XML
+#	new file:   fe/facturas/xml/-RC-20240105-2.XML
+#	modified:   fe/facturas/xml/10123456789-01 -F001-3.XML
+#	new file:   fe/facturas/xml/10123456789-01-B001-18.XML
+#	new file:   fe/facturas/xml/10123456789-01-B001-19.XML
+#	new file:   fe/facturas/xml/10123456789-01-B009-23.XML
+#	modified:   fe/facturas/xml/10123456789-01-F001-3.XML
+#	new file:   fe/facturas/xml/10123456789-03 -B001-5.XML
+#	modified:   fe/facturas/xml/10123456789-03-B001-5.XML
+#	new file:   fe/facturas/xml/10123456789-03-B002-33.XML
+#	new file:   fe/facturas/xml/10123456789-03-B002-35.XML
+#	new file:   fe/facturas/xml/10123456789-03-B002-36.XML
+#	new file:   fe/facturas/xml/10123456789-03-B002-39.XML
+#	new file:   fe/facturas/xml/10123456789-03-B002-41.XML
+#	new file:   fe/facturas/xml/10123456789-03-B002-42.XML
+#	new file:   fe/facturas/xml/10123456789-03-B002-53.XML
+#	new file:   fe/facturas/xml/10123456789-03-B002-59.XML
+#	new file:   fe/facturas/xml/10123456789-03-B002-61.XML
+#	new file:   fe/facturas/xml/10123456789-03-B002-72.XML
+#	new file:   fe/facturas/xml/10123456789-03-B002-79.XML
+#	new file:   fe/facturas/xml/10123456789-03-B003-16.XML
+#	new file:   fe/facturas/xml/10123456789-03-B003-18.XML
+#	new file:   fe/facturas/xml/10123456789-03-B006-889.XML
+#	new file:   fe/facturas/xml/10123456789-RC-20231119-1.XML
+#	new file:   fe/facturas/xml/10123456789-RC-20231125-1.XML
+#	new file:   fe/facturas/xml/10123456789-RC-20231203-1.XML
+#	new file:   fe/facturas/xml/10452578951-01-F001-1.XML
+#	new file:   fe/facturas/xml/10452578951-01-F001-1.ZIP
+#	new file:   fe/facturas/xml/10452578951-01-F001-10.XML
+#	new file:   fe/facturas/xml/10452578951-01-F001-10.ZIP
+#	new file:   fe/facturas/xml/10452578951-01-F001-11.XML
+#	new file:   fe/facturas/xml/10452578951-01-F001-11.ZIP
+#	new file:   fe/facturas/xml/10452578951-01-F001-2.XML
+#	new file:   fe/facturas/xml/10452578951-01-F001-2.ZIP
+#	new file:   fe/facturas/xml/10452578951-01-F001-3.XML
+#	new file:   fe/facturas/xml/10452578951-01-F001-3.ZIP
+#	new file:   fe/facturas/xml/10452578951-01-F001-4.XML
+#	new file:   fe/facturas/xml/10452578951-01-F001-4.ZIP
+#	new file:   fe/facturas/xml/10452578951-01-F001-5.XML
+#	new file:   fe/facturas/xml/10452578951-01-F001-5.ZIP
+#	new file:   fe/facturas/xml/10452578951-01-F001-6.XML
+#	new file:   fe/facturas/xml/10452578951-01-F001-6.ZIP
+#	new file:   fe/facturas/xml/10452578951-01-F001-7.XML
+#	new file:   fe/facturas/xml/10452578951-01-F001-7.ZIP
+#	new file:   fe/facturas/xml/10452578951-01-F001-8.XML
+#	new file:   fe/facturas/xml/10452578951-01-F001-8.ZIP
+#	new file:   fe/facturas/xml/10452578951-01-F001-9.XML
+#	new file:   fe/facturas/xml/10452578951-01-F001-9.ZIP
+#	new file:   fe/facturas/xml/10452578951-03-B001-1.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-1.ZIP
+#	new file:   fe/facturas/xml/10452578951-03-B001-10.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-10.ZIP
+#	new file:   fe/facturas/xml/10452578951-03-B001-14.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-14.ZIP
+#	new file:   fe/facturas/xml/10452578951-03-B001-16.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-17.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-17.ZIP
+#	new file:   fe/facturas/xml/10452578951-03-B001-18.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-18.ZIP
+#	new file:   fe/facturas/xml/10452578951-03-B001-19.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-2.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-20.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-21.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-22.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-22.ZIP
+#	new file:   fe/facturas/xml/10452578951-03-B001-23.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-23.ZIP
+#	new file:   fe/facturas/xml/10452578951-03-B001-25.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-25.ZIP
+#	new file:   fe/facturas/xml/10452578951-03-B001-26.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-26.ZIP
+#	new file:   fe/facturas/xml/10452578951-03-B001-27.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-27.ZIP
+#	new file:   fe/facturas/xml/10452578951-03-B001-29.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-29.ZIP
+#	new file:   fe/facturas/xml/10452578951-03-B001-31.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-31.ZIP
+#	new file:   fe/facturas/xml/10452578951-03-B001-34.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-34.ZIP
+#	new file:   fe/facturas/xml/10452578951-03-B001-36.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-36.ZIP
+#	new file:   fe/facturas/xml/10452578951-03-B001-4.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-5.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-5.ZIP
+#	new file:   fe/facturas/xml/10452578951-03-B001-6.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-6.ZIP
+#	new file:   fe/facturas/xml/10452578951-03-B001-7.XML
+#	new file:   fe/facturas/xml/10452578951-03-B001-7.ZIP
+#	new file:   fe/facturas/xml/10452578951-RC-20240104-1.XML
+#	new file:   fe/facturas/xml/10452578951-RC-20240104-1.ZIP
+#	new file:   fe/facturas/xml/10452578951-RC-20240105-1.XML
+#	new file:   fe/facturas/xml/10452578951-RC-20240105-1.ZIP
+#	new file:   fe/facturas/xml/10467291240-01-F001-17.XML
+#	new file:   fe/facturas/xml/10467291240-01-F001-18.XML
+#	new file:   fe/facturas/xml/10467291240-03-B002-100.XML
+#	new file:   fe/facturas/xml/10467291240-03-B002-101.XML
+#	new file:   fe/facturas/xml/10467291240-03-B002-97.XML
+#	new file:   fe/facturas/xml/10467291240-03-B002-99.XML
+#	new file:   fe/facturas/xml/10467291240-RC-20231114-13.XML
+#	new file:   fe/facturas/xml/10467291240-RC-20231114-13.ZIP
+#	new file:   fe/facturas/xml/10467291240-RC-20231115-1.XML
+#	new file:   fe/facturas/xml/10467291240-RC-20231115-1.ZIP
+#	new file:   fe/facturas/xml/10467291240-RC-20231115-3.XML
+#	new file:   fe/facturas/xml/10467291240-RC-20231123-1.XML
+#	new file:   fe/facturas/xml/10467291240-RC-20231123-1.ZIP
+#	new file:   fe/facturas/xml/10467291240-RC-20231125-2.XML
+#	new file:   fe/facturas/xml/10467291240-RC-20231125-2.ZIP
+#	new file:   fe/facturas/xml/10467291240-RC-20231202-1.XML
+#	new file:   fe/facturas/xml/10467291240-RC-20231202-1.ZIP
+#	new file:   fe/facturas/xml/10467291240-RC-20231202-2.XML
+#	new file:   fe/facturas/xml/10467291240-RC-20231202-2.ZIP
+#	new file:   fe/facturas/xml/10467291240-RC-20231205-1.XML
+#	new file:   fe/facturas/xml/10467291240-RC-20231205-1.ZIP
+#	new file:   fe/facturas/xml/10467291240-RC-20231205-2.XML
+#	new file:   fe/facturas/xml/10467291240-RC-20231205-2.ZIP
+#	new file:   fe/facturas/xml/10467291241-01 -B001-16.XML
+#	new file:   fe/facturas/xml/10467291241-01 -B001-16.ZIP
+#	new file:   fe/facturas/xml/10467291241-01 -F001-21.XML
+#	new file:   fe/facturas/xml/10467291241-01 -F001-5.XML
+#	new file:   fe/facturas/xml/10467291241-01-B001-16.XML
+#	new file:   fe/facturas/xml/10467291241-01-B001-17.XML
+#	new file:   fe/facturas/xml/10467291241-01-B001-17.ZIP
+#	new file:   fe/facturas/xml/10467291241-01-B009-21.XML
+#	new file:   fe/facturas/xml/10467291241-01-B009-21.ZIP
+#	new file:   fe/facturas/xml/10467291241-01-B009-24.XML
+#	new file:   fe/facturas/xml/10467291241-01-B009-24.ZIP
+#	modified:   fe/facturas/xml/10467291241-01-F001-10.XML
+#	modified:   fe/facturas/xml/10467291241-01-F001-10.ZIP
+#	modified:   fe/facturas/xml/10467291241-01-F001-11.XML
+#	modified:   fe/facturas/xml/10467291241-01-F001-11.ZIP
+#	modified:   fe/facturas/xml/10467291241-01-F001-12.XML
+#	modified:   fe/facturas/xml/10467291241-01-F001-12.ZIP
+#	new file:   fe/facturas/xml/10467291241-01-F001-13.XML
+#	new file:   fe/facturas/xml/10467291241-01-F001-13.ZIP
+#	modified:   fe/facturas/xml/10467291241-01-F001-20.XML
+#	modified:   fe/facturas/xml/10467291241-01-F001-20.ZIP
+#	modified:   fe/facturas/xml/10467291241-01-F001-21.XML
+#	modified:   fe/facturas/xml/10467291241-01-F001-21.ZIP
+#	modified:   fe/facturas/xml/10467291241-01-F001-22.XML
+#	modified:   fe/facturas/xml/10467291241-01-F001-22.ZIP
+#	modified:   fe/facturas/xml/10467291241-01-F001-23.XML
+#	modified:   fe/facturas/xml/10467291241-01-F001-23.ZIP
+#	modified:   fe/facturas/xml/10467291241-01-F001-24.XML
+#	modified:   fe/facturas/xml/10467291241-01-F001-24.ZIP
+#	modified:   fe/facturas/xml/10467291241-01-F001-25.XML
+#	modified:   fe/facturas/xml/10467291241-01-F001-25.ZIP
+#	modified:   fe/facturas/xml/10467291241-01-F001-26.XML
+#	modified:   fe/facturas/xml/10467291241-01-F001-26.ZIP
+#	modified:   fe/facturas/xml/10467291241-01-F001-4.XML
+#	modified:   fe/facturas/xml/10467291241-01-F001-4.ZIP
+#	modified:   fe/facturas/xml/10467291241-01-F001-5.XML
+#	modified:   fe/facturas/xml/10467291241-01-F001-7.XML
+#	modified:   fe/facturas/xml/10467291241-01-F001-7.ZIP
+#	modified:   fe/facturas/xml/10467291241-01-F001-8.XML
+#	modified:   fe/facturas/xml/10467291241-01-F001-8.ZIP
+#	new file:   fe/facturas/xml/10467291241-01-FA-35.XML
+#	new file:   fe/facturas/xml/10467291241-01-FA-35.ZIP
+#	new file:   fe/facturas/xml/10467291241-01-FA-36.XML
+#	new file:   fe/facturas/xml/10467291241-01-FA-36.ZIP
+#	new file:   fe/facturas/xml/10467291241-01-FA-37.XML
+#	new file:   fe/facturas/xml/10467291241-01-FA-37.ZIP
+#	new file:   fe/facturas/xml/10467291241-01-FL01-14.XML
+#	new file:   fe/facturas/xml/10467291241-01-FL01-15.XML
+#	new file:   fe/facturas/xml/10467291241-01-FL01-16.XML
+#	new file:   fe/facturas/xml/10467291241-01-FL01-16.ZIP
+#	new file:   fe/facturas/xml/10467291241-01-FL01-17.XML
+#	new file:   fe/facturas/xml/10467291241-01-FL01-17.ZIP
+#	modified:   fe/facturas/xml/10467291241-03 -B001-6.XML
+#	new file:   fe/facturas/xml/10467291241-03-B001-10.XML
+#	new file:   fe/facturas/xml/10467291241-03-B001-10.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B001-12.XML
+#	new file:   fe/facturas/xml/10467291241-03-B001-12.ZIP
+#	modified:   fe/facturas/xml/10467291241-03-B001-6.XML
+#	new file:   fe/facturas/xml/10467291241-03-B001-6.ZIP
+#	modified:   fe/facturas/xml/10467291241-03-B001-7.XML
+#	new file:   fe/facturas/xml/10467291241-03-B001-7.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B001-8.XML
+#	new file:   fe/facturas/xml/10467291241-03-B001-8.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B001-9.XML
+#	new file:   fe/facturas/xml/10467291241-03-B001-9.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-102.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-103.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-103.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-104.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-104.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-105.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-106.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-106.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-107.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-108.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-109.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-109.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-110.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-110.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-111.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-111.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-112.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-112.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-113.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-113.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-115.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-115.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-116.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-116.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-117.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-117.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-118.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-118.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-12.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-12.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-120.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-120.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-13.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-13.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-16.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-17.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-18.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-20.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-21.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-22.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-23.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-25.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-27.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-28.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-28.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-29.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-29.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-3.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-30.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-30.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-31.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-31.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-32.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-32.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-34.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-34.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-37.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-37.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-38.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-38.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-4.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-40.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-40.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-43.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-43.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-44.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-44.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-45.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-45.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-46.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-46.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-47.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-47.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-48.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-48.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-49.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-49.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-5.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-50.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-50.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-51.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-51.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-52.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-52.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-57.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-57.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-58.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-58.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-6.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-6.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-60.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-60.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-62.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-62.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-63.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-63.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-64.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-64.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-65.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-65.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-67.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-67.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-70.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-70.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-73.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-73.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-74.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-75.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-76.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-77.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-77.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-78.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-78.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-8.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-8.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-80.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-80.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-81.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-81.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-82.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-82.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-83.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-83.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-84.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-84.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-85.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-85.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-86.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-86.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-88.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-88.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-90.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-90.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-92.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-92.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-93.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-93.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-94.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-94.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-95.XML
+#	new file:   fe/facturas/xml/10467291241-03-B002-95.ZIP
+#	new file:   fe/facturas/xml/10467291241-03-B002-98.XML
+#	new file:   fe/facturas/xml/10467291241-03-B004-5.XML
+#	new file:   fe/facturas/xml/10467291241-03-B004-5.ZIP
+#	new file:   fe/facturas/xml/10467291241-RC-20231114-10.XML
+#	new file:   fe/facturas/xml/10467291241-RC-20231114-10.ZIP
+#	new file:   fe/facturas/xml/10467291241-RC-20231114-11.XML
+#	new file:   fe/facturas/xml/10467291241-RC-20231114-11.ZIP
+#	new file:   fe/facturas/xml/10467291241-RC-20231114-12.XML
+#	new file:   fe/facturas/xml/10467291241-RC-20231114-12.ZIP
+#	new file:   fe/facturas/xml/10467291241-RC-20231114-14.XML
+#	new file:   fe/facturas/xml/10467291241-RC-20231114-14.ZIP
+#	new file:   fe/facturas/xml/10467291241-RC-20231114-4.XML
+#	new file:   fe/facturas/xml/10467291241-RC-20231114-4.ZIP
+#	new file:   fe/facturas/xml/10467291241-RC-20231114-5.XML
+#	new file:   fe/facturas/xml/10467291241-RC-20231114-5.ZIP
+#	new file:   fe/facturas/xml/10467291241-RC-20231114-6.XML
+#	new file:   fe/facturas/xml/10467291241-RC-20231114-6.ZIP
+#	new file:   fe/facturas/xml/10467291241-RC-20231114-7.XML
+#	new file:   fe/facturas/xml/10467291241-RC-20231114-7.ZIP
+#	new file:   fe/facturas/xml/10467291241-RC-20231114-8.XML
+#	new file:   fe/facturas/xml/10467291241-RC-20231114-8.ZIP
+#	new file:   fe/facturas/xml/10467291241-RC-20231114-9.XML
+#	new file:   fe/facturas/xml/10467291241-RC-20231114-9.ZIP
+#	new file:   fe/facturas/xml/10467291241-RC-20231115-2.XML
+#	new file:   fe/facturas/xml/10467291241-RC-20231115-2.ZIP
+#	new file:   fe/facturas/xml/10467291241-RC-20231115-4.XML
+#	new file:   fe/facturas/xml/10467291241-RC-20231127-1.XML
+#	new file:   fe/facturas/xml/10467291241-RC-20231127-1.ZIP
+#	new file:   fe/facturas/xml/10467291241-RC-20231206-1.XML
+#	new file:   fe/facturas/xml/10467291241-RC-20231206-1.ZIP
+#	new file:   fe/facturas/xml/10467291241-RC-20240103-1.XML
+#	new file:   fe/facturas/xml/10467291241-RC-20240103-1.ZIP
+#	new file:   fe/facturas/xml/10467291241-RC-20240103-2.XML
+#	new file:   fe/facturas/xml/10467291241-RC-20240103-2.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-1.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-1.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-10.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-10.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-11.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-11.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-12.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-12.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-13.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-13.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-14.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-14.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-15.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-15.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-16.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-16.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-17.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-17.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-18.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-18.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-19.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-19.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-2.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-2.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-20.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-20.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-21.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-21.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-22.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-22.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-23.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-23.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-24.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-24.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-25.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-25.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-26.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-26.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-27.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-27.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-28.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-28.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-29.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-29.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-3.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-3.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-30.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-30.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-31.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-31.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-32.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-32.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-33.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-33.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-34.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-34.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-35.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-35.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-36.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-36.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-37.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-37.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-38.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-38.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-39.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-39.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-4.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-4.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-40.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-40.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-41.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-41.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-42.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-42.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-43.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-43.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-44.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-44.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-45.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-45.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-46.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-46.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-47.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-47.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-48.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-48.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-49.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-49.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-5.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-5.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-50.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-50.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-51.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-51.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-52.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-52.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-53.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-53.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-54.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-54.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-55.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-55.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-56.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-56.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-57.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-57.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-58.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-58.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-59.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-59.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-6.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-6.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-61.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-61.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-62.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-62.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-7.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-7.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-8.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-8.ZIP
+#	new file:   fe/facturas/xml/20452578951-01-F002-9.XML
+#	new file:   fe/facturas/xml/20452578951-01-F002-9.ZIP
+#	new file:   fe/facturas/xml/20452578951-03 -B002-2.XML
+#	new file:   fe/facturas/xml/20452578951-03 -B002-2.ZIP
+#	new file:   fe/facturas/xml/20452578951-03-B002-1.XML
+#	new file:   fe/facturas/xml/20452578951-03-B002-1.ZIP
+#	new file:   fe/facturas/xml/20452578951-03-B002-2.XML
+#	new file:   fe/facturas/xml/20452578951-03-B002-2.ZIP
+#	new file:   fe/facturas/xml/20452578951-03-B002-3.XML
+#	new file:   fe/facturas/xml/20452578951-03-B002-3.ZIP
+#	new file:   fe/facturas/xml/20452578951-03-B002-4.XML
+#	new file:   fe/facturas/xml/20452578951-03-B002-4.ZIP
+#	new file:   fe/facturas/xml/20452578951-03-B002-5.XML
+#	new file:   fe/facturas/xml/20452578951-03-B002-5.ZIP
+#	new file:   fe/facturas/xml/20452578951-03-B002-6.XML
+#	new file:   fe/facturas/xml/20452578951-03-B002-6.ZIP
+#	new file:   fe/facturas/xml/20452578951-RC-20240116-1.XML
+#	new file:   fe/facturas/xml/20452578951-RC-20240116-1.ZIP
+#	new file:   fe/facturas/xml/20452578951-RC-20240116-2.XML
+#	new file:   fe/facturas/xml/20452578951-RC-20240116-2.ZIP
+#	new file:   fe/facturas/xml/20525994741-03-B001-11.XML
+#	new file:   fe/facturas/xml/20525994741-03-B001-12.XML
+#	new file:   fe/facturas/xml/20525994741-03-B001-13.XML
+#	new file:   fe/facturas/xml/20525994741-03-B001-15.XML
+#	new file:   fe/facturas/xml/20525994741-03-B001-15.ZIP
+#	new file:   fe/facturas/xml/20525994741-03-B001-24.XML
+#	new file:   fe/facturas/xml/20525994741-03-B001-24.ZIP
+#	new file:   fe/facturas/xml/20525994741-03-B001-28.XML
+#	new file:   fe/facturas/xml/20525994741-03-B001-28.ZIP
+#	new file:   fe/facturas/xml/20525994741-03-B001-3.XML
+#	new file:   fe/facturas/xml/20525994741-03-B001-30.XML
+#	new file:   fe/facturas/xml/20525994741-03-B001-30.ZIP
+#	new file:   fe/facturas/xml/20525994741-03-B001-32.XML
+#	new file:   fe/facturas/xml/20525994741-03-B001-32.ZIP
+#	new file:   fe/facturas/xml/20525994741-03-B001-33.XML
+#	new file:   fe/facturas/xml/20525994741-03-B001-33.ZIP
+#	new file:   fe/facturas/xml/20525994741-03-B001-8.XML
+#	new file:   fe/facturas/xml/20525994741-03-B001-8.ZIP
+#	new file:   fe/facturas/xml/20525994741-03-B001-9.XML
+#	new file:   fe/facturas/xml/20525994741-RC-20240104-2.XML
+#	new file:   fe/facturas/xml/20525994741-RC-20240104-2.ZIP
+#	new file:   fe/qr/1045257895101F00110.png
+#	new file:   fe/qr/1045257895101F00111.png
+#	new file:   fe/qr/1045257895101F0017.png
+#	new file:   fe/qr/1045257895101F0018.png
+#	new file:   fe/qr/1045257895101F0019.png
+#	new file:   fe/qr/2045257895101 F0021.png
+#	new file:   fe/qr/2045257895101 F00210.png
+#	new file:   fe/qr/2045257895101 F00211.png
+#	new file:   fe/qr/2045257895101 F00216.png
+#	new file:   fe/qr/2045257895101 F0022.png
+#	new file:   fe/qr/2045257895101 F00220.png
+#	new file:   fe/qr/2045257895101 F00221.png
+#	new file:   fe/qr/2045257895101 F00222.png
+#	new file:   fe/qr/2045257895101 F00223.png
+#	new file:   fe/qr/2045257895101 F00224.png
+#	new file:   fe/qr/2045257895101 F00225.png
+#	new file:   fe/qr/2045257895101 F00226.png
+#	new file:   fe/qr/2045257895101 F0023.png
+#	new file:   fe/qr/2045257895101 F0024.png
+#	new file:   fe/qr/2045257895101 F0025.png
+#	new file:   fe/qr/2045257895101 F0026.png
+#	new file:   fe/qr/2045257895101 F0027.png
+#	new file:   fe/qr/2045257895101 F0028.png
+#	new file:   fe/qr/2045257895101 F0029.png
+#	new file:   fe/qr/2045257895101F00227.png
+#	new file:   fe/qr/2045257895101F00228.png
+#	new file:   fe/qr/2045257895101F00229.png
+#	new file:   fe/qr/2045257895101F00230.png
+#	new file:   fe/qr/2045257895101F00231.png
+#	new file:   fe/qr/2045257895101F00232.png
+#	new file:   fe/qr/2045257895101F00233.png
+#	new file:   fe/qr/2045257895101F00234.png
+#	new file:   fe/qr/2045257895101F00235.png
+#	new file:   fe/qr/2045257895101F00236.png
+#	new file:   fe/qr/2045257895101F00237.png
+#	new file:   fe/qr/2045257895101F00238.png
+#	new file:   fe/qr/2045257895101F00239.png
+#	new file:   fe/qr/2045257895101F00240.png
+#	new file:   fe/qr/2045257895101F00241.png
+#	new file:   fe/qr/2045257895101F00242.png
+#	new file:   fe/qr/2045257895101F00243.png
+#	new file:   fe/qr/2045257895101F00244.png
+#	new file:   fe/qr/2045257895101F00245.png
+#	new file:   fe/qr/2045257895101F00246.png
+#	new file:   fe/qr/2045257895101F00247.png
+#	new file:   fe/qr/2045257895101F00248.png
+#	new file:   fe/qr/2045257895101F00249.png
+#	new file:   fe/qr/2045257895101F00250.png
+#	new file:   fe/qr/2045257895101F00251.png
+#	new file:   fe/qr/2045257895101F00252.png
+#	new file:   fe/qr/2045257895101F00253.png
+#	new file:   fe/qr/2045257895101F00254.png
+#	new file:   fe/qr/2045257895101F00255.png
+#	new file:   fe/qr/2045257895101F00256.png
+#	new file:   fe/qr/2045257895101F00257.png
+#	new file:   fe/qr/2045257895101F00259.png
+#	new file:   fe/qr/2045257895101F00260.png
+#	new file:   fe/qr/2045257895101F00262.png
+#	modified:   fe/qr/prueba_qr.png
+#	new file:   fe/qr/prueba_qr_2.png
+#	modified:   index.php
+#	modified:   modelos/conexion.php
+#	new file:   modelos/configuraciones.modelo.php
+#	modified:   modelos/ventas.modelo.php
+#	modified:   vendor/autoload.php
+#	modified:   vendor/composer/ClassLoader.php
+#	modified:   vendor/composer/InstalledVersions.php
+#	modified:   vendor/composer/autoload_classmap.php
+#	modified:   vendor/composer/autoload_files.php
+#	modified:   vendor/composer/autoload_namespaces.php
+#	modified:   vendor/composer/autoload_psr4.php
+#	modified:   vendor/composer/autoload_real.php
+#	modified:   vendor/composer/autoload_static.php
+#	modified:   vendor/composer/installed.json
+#	modified:   vendor/composer/installed.php
+#	new file:   vendor/dompdf/dompdf/lib/fonts/Helvetica-Oblique.afm.json
+#	new file:   vendor/phpmailer/phpmailer/.editorconfig
+#	new file:   vendor/phpmailer/phpmailer/COMMITMENT
+#	new file:   vendor/phpmailer/phpmailer/LICENSE
+#	new file:   vendor/phpmailer/phpmailer/README.md
+#	new file:   vendor/phpmailer/phpmailer/SECURITY.md
+#	new file:   vendor/phpmailer/phpmailer/VERSION
+#	new file:   vendor/phpmailer/phpmailer/composer.json
+#	new file:   vendor/phpmailer/phpmailer/get_oauth_token.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-af.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-ar.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-as.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-az.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-ba.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-be.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-bg.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-bn.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-ca.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-cs.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-da.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-de.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-el.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-eo.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-es.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-et.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-fa.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-fi.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-fo.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-fr.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-gl.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-he.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-hi.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-hr.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-hu.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-hy.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-id.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-it.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-ja.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-ka.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-ko.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-lt.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-lv.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-mg.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-mn.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-ms.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-nb.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-nl.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-pl.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-pt.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-pt_br.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-ro.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-ru.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-si.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-sk.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-sl.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-sr.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-sr_latn.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-sv.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-tl.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-tr.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-uk.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-vi.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-zh.php
+#	new file:   vendor/phpmailer/phpmailer/language/phpmailer.lang-zh_cn.php
+#	new file:   vendor/phpmailer/phpmailer/src/DSNConfigurator.php
+#	new file:   vendor/phpmailer/phpmailer/src/Exception.php
+#	new file:   vendor/phpmailer/phpmailer/src/OAuth.php
+#	new file:   vendor/phpmailer/phpmailer/src/OAuthTokenProvider.php
+#	new file:   vendor/phpmailer/phpmailer/src/PHPMailer.php
+#	new file:   vendor/phpmailer/phpmailer/src/POP3.php
+#	new file:   vendor/phpmailer/phpmailer/src/SMTP.php
+#	new file:   vendor/ultramsg/whatsapp-php-sdk/LICENSE
+#	new file:   vendor/ultramsg/whatsapp-php-sdk/README.md
+#	new file:   vendor/ultramsg/whatsapp-php-sdk/composer.json
+#	new file:   vendor/ultramsg/whatsapp-php-sdk/ultramsg.class.php
+#	modified:   vistas/administrar_empresas.php
+#	new file:   vistas/assets/dist/img/logos_empresas/659379728c51e_350.png
+#	new file:   vistas/assets/dist/img/logos_empresas/65937ab867c59_869.png
+#	new file:   vistas/assets/dist/img/logos_empresas/659388b8c3aaf_235.png
+#	new file:   vistas/assets/dist/img/logos_empresas/65938982c3c24_385.png
+#	new file:   vistas/assets/dist/img/logos_empresas/6593899885915_276.png
+#	new file:   vistas/assets/dist/img/logos_empresas/65938ab5ea469_641.png
+#	new file:   vistas/assets/dist/img/logos_empresas/65938ac7bc244_349.png
+#	new file:   vistas/assets/dist/img/logos_empresas/65938afe14cb7_918.png
+#	new file:   vistas/assets/dist/img/logos_empresas/65938b04e7a43_253.png
+#	new file:   vistas/assets/dist/img/logos_empresas/65938b7e04611_788.png
+#	new file:   vistas/assets/dist/img/logos_empresas/65938c8f1f763_126.png
+#	new file:   vistas/assets/dist/img/logos_empresas/65938c965feba_967.png
+#	new file:   vistas/assets/dist/img/logos_empresas/65938d06d72b2_545.png
+#	new file:   vistas/assets/dist/img/logos_empresas/65938e6a5db9f_706.jpg
+#	new file:   vistas/assets/dist/img/logos_empresas/65938e781a7d9_853.png
+#	new file:   vistas/assets/dist/img/logos_empresas/65938eb1721fd_711.png
+#	new file:   vistas/assets/dist/img/logos_empresas/659495d65b363_767.png
+#	new file:   vistas/assets/dist/img/logos_empresas/6594a0751dea1_332.png
+#	new file:   vistas/assets/dist/img/logos_empresas/6594c4cf0823a_805.png
+#	new file:   vistas/assets/dist/img/logos_empresas/65961c73dbd7c_379.png
+#	new file:   vistas/assets/dist/img/logos_empresas/65962c4715b57_330.png
+#	new file:   vistas/assets/dist/img/logos_empresas/6597053b82ae1_766.png
+#	new file:   vistas/assets/dist/img/logos_empresas/6597073c2208b_982.png
+#	new file:   vistas/assets/dist/img/logos_empresas/6597081082c69_290.png
+#	new file:   vistas/assets/dist/img/logos_empresas/65a419142f373_770.png
+#	new file:   vistas/assets/dist/img/logos_empresas/no_image.jpg
+#	new file:   vistas/assets/imagenes/productos/6554d5ecad439_298.png
+#	new file:   vistas/assets/imagenes/productos/6555c41e6d003_952.jpg
+#	new file:   vistas/assets/imagenes/productos/6555c4e75ba68_803.jpg
+#	new file:   vistas/assets/imagenes/productos/6555c57f9c36c_495.jpg
+#	new file:   vistas/assets/imagenes/productos/65575641a3c0a_733.jpg
+#	new file:   vistas/assets/imagenes/productos/6559fc85361e1_751.webp
+#	new file:   vistas/assets/imagenes/productos/6563923f8041c_323.jpg
+#	new file:   vistas/assets/imagenes/productos/656392bede725_292.jpg
+#	new file:   vistas/assets/imagenes/productos/65655bb93ebd8_248.jpeg
+#	new file:   vistas/assets/imagenes/productos/65661ee20c2db_622.png
+#	new file:   vistas/assets/imagenes/productos/656a448b96191_866.jpg
+#	new file:   vistas/assets/imagenes/productos/656e689757deb_551.jpeg
+#	new file:   vistas/assets/imagenes/productos/656e68a944442_383.png
+#	new file:   vistas/assets/imagenes/productos/656f9df0b7b3d_191.jpg
+#	new file:   vistas/assets/imagenes/productos/656fa5f357cbe_377.gif
+#	new file:   vistas/assets/imagenes/productos/6585730c93cbf_923.jpg
+#	new file:   vistas/assets/imagenes/productos/6585739654cf6_351.jpg
+#	new file:   vistas/assets/imagenes/productos/6585b01a3e113_994.png
+#	new file:   vistas/assets/imagenes/productos/6585b046236dc_394.png
+#	new file:   vistas/assets/imagenes/productos/6585b0acb2079_682.jpg
+#	new file:   vistas/assets/imagenes/productos/6585b1170139f_374.jpg
+#	new file:   vistas/assets/imagenes/productos/6585b17b30b89_394.jpg
+#	new file:   vistas/assets/imagenes/productos/658c77a210665_637.png
+#	new file:   vistas/assets/imagenes/productos/65a99644899c3_886.jpg
+#	modified:   vistas/caja.php
+#	modified:   vistas/compras.php
+#	modified:   vistas/cuentas_x_cobrar.php
+#	modified:   vistas/generar_factura_a4.php
+#	modified:   vistas/generar_registro_compra.php
+#	modified:   vistas/generar_ticket.php
+#	modified:   vistas/imprimir_arqueo.php
+#	modified:   vistas/login copy.php
+#	modified:   vistas/login.php
+#	modified:   vistas/modulos/aside.php
+#	modified:   vistas/plantilla.php
+#	modified:   vistas/productos.php
+#	modified:   vistas/venta_boleta.php
+#	modified:   vistas/venta_factura.php
+#	modified:   vistas/venta_nota_credito.php
+#	modified:   vistas/venta_resumen_boletas.php
+#
+# Changes not staged for commit:
+#	modified:   ajax/apis/api_facturacion.php
+#	modified:   ajax/ventas.ajax.php
+#	modified:   modelos/series.modelo.php
+#	modified:   modelos/ventas.modelo.php
+#	modified:   vistas/venta_nota_credito.php
+#
+# Untracked files:
+#	archivos/~$Mejoras_POS.xlsx
+#
