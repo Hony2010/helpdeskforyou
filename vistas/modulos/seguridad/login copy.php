@@ -151,7 +151,7 @@
 
                         setInterval(() => {
                             $("#btnIniciarSesion").removeClass('disabled');
-                            window.location = "http://localhost/miposfacturador/";
+                            window.location = "https://hony.host/helpdeskforyou/";
                         }, 1200);
 
 
